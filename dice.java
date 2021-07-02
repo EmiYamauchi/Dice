@@ -1,5 +1,9 @@
 class dice{
     public static void main(String[] args){
+
+        System.out.println("What is your name?");
+        String s = new java.util.Scanner(System.in).nextLine()
+        System.out.println("Hello," + s + "!");
         int r1 = new java.util.Random().nextInt(6) + 1;
         int r2 = new java.util.Random().nextInt(6) + 1;
 
