@@ -7,5 +7,11 @@ class Dice1{
         System.out.println("Die 1: " + r1);
         System.out.println("Die 1: " + r2);
         System.out.println("Total value: " + (r1+r2));
+
+        if(r1+r2>7){
+            System.out.println("You won");
+        }else{
+            System.out.println("You lost");
+        }
     }
 }
